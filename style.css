@@ -16,12 +16,12 @@ hr {
   width: 100dvh;
   margin-bottom: 20px;
 }
-.image img {
+img {
   border-radius: 44% 56% 70% 30% / 30% 23% 77% 70%;
   transition: border-radius 500ms ease-in-out;
   width: 200px;
 }
-.image img:hover {
+img:hover {
   border-radius: 22% 78% 46% 54% / 68% 28% 72% 32%;
 }
 header {

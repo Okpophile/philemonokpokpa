@@ -19,7 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Philemon Okpokpa Software Developer</title>
+    <title>Philemon Okpokpa</title>
   </head>
   <body>
     <header class="page-header">
@@ -29,26 +29,24 @@
 
     <div class="wrapper">
       <main>
-        <article>
-          <section class="image">
-            <img src="phil.png" alt="phil's profile picture" />
-          </section>
-          <section class="intro">
-            <header><h2>Hi! I'm Philemon Okpokpa</h2></header>
-            <p>I am a software engineer living in Edo State, Nigeria</p>
-            <p>
-              I have a special and keen interest in solving problems for
-              companies, startups and individuals on their personal web
-              development, and software projects.
-            </p>
-            <p>
-              I prefer a freelance remote role which has been my scope of work
-              for the past 9 years and counting
-            </p>
-          </section>
-        </article>
+        <img src="phil.png" alt="phil's profile picture" />
+        <section class="intro">
+          <header><h2>Hi! I'm Philemon Okpokpa</h2></header>
+          <p>I am a software engineer living in Edo State, Nigeria</p>
+          <p>
+            I have a special and keen interest in solving problems for
+            companies, startups and individuals on their personal web
+            development, and software projects.
+          </p>
+          <p>
+            I prefer a freelance remote role which has been my scope of work for
+            the past 9 years and counting
+          </p>
+        </section>
+
         <hr />
         <article>
+          <h2>More Phil Info</h2>
           <!-- About me section -->
           <section class="about-me" id="about-me">
             <header>
@@ -119,12 +117,16 @@
             <form action="#">
               <div class="email">
                 <label for="email">Email: </label>
-                <input type="email" placeholder="phil@example.com" />
+                <input type="email" id="email" placeholder="phil@example.com" />
               </div>
 
-              <div class="subject" for="subject">
-                <label>Subject: </label>
-                <input type="text" placeholder="Availability inquiry" />
+              <div class="subject">
+                <label for="subject">Subject: </label>
+                <input
+                  id="subject"
+                  type="text"
+                  placeholder="Availability inquiry"
+                />
               </div>
 
               <div class="message">
